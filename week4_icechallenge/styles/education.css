@@ -1,0 +1,49 @@
+main {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.ed :hover {
+    color: black;
+}
+
+.a {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+
+
+.list {
+    display: table;
+    margin: 0 auto;
+    font-size: 130%;
+}
+.nelson {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 30%
+}
+
+.b {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    margin: 0 auto;
+    display: block;
+    max-width: 50%;
+}
+
+.last {
+    text-align: center;
+}
