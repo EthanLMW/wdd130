@@ -1,0 +1,101 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: rgb(117, 115, 115);
+}
+
+nav a {
+    text-align: center;
+    color: rgb(223, 220, 220);
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: rgb(117, 115, 115);
+}
+
+.home-title {
+    color: green;
+}
+
+h4 {
+    color: green;
+}
+
+main section {
+    text-align: center;
+}
+
+.book {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+.book:hover {
+    background-color: white;
+    color: rgb(13, 216, 13);
+}
+
+.join {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+.join:hover {
+    background-color: white;
+    color: rgb(13, 216, 13);
+}
+
+#hero-msg h1, h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: rgb(131, 127, 127);
+}
+
+.msg {
+    background-color: white;
+    color: green;
+}
+
+footer {
+    background-color: rgb(117, 115, 115);
+    color: rgb(236, 235, 235);
+}
+
+footer a {
+    color: rgb(236, 235, 235);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
