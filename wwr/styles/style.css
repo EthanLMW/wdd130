@@ -1,3 +1,10 @@
+
+/* Headline font*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rock+Salt&display=swap');
+
+/*paragraph font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Sniglet&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +12,10 @@
 
 body {
     background-color: white;
+    font-family: 'Nunito Sans', 'Sniglet', serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -15,6 +26,7 @@ nav a {
     text-align: center;
     color: rgb(223, 220, 220);
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -24,6 +36,13 @@ nav a:hover {
 
 .home-title {
     color: green;
+    font-family: 'Rock Salt', 'Indie Flower', serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
 }
 
 h4 {
@@ -34,26 +53,40 @@ main section {
     text-align: center;
 }
 
+maing section img {
+    box-sizing: border-box;
+}
+
 .book {
     background-color: green;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
-    background-color: white;
-    color: rgb(13, 216, 13);
+    background-color: rgb(5, 168, 5);
+    color: white;
+    text-decoration-line: underline ;
 }
 
 .join {
     background-color: green;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
-    background-color: white;
-    color: rgb(13, 216, 13);
+    background-color: rgb(5, 168, 5);
+    color: white;
+    text-decoration: underline;
 }
 
 #hero-msg h1, h4 {
@@ -72,11 +105,54 @@ main section {
 .msg {
     background-color: white;
     color: green;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid green;
+}
+
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+#hero-img {
+    width: 100%;
 }
 
 footer {
     background-color: rgb(117, 115, 115);
     color: rgb(236, 235, 235);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -92,14 +168,6 @@ footer h3 a:hover {
     text-decoration: underline;
 }
 
-.logo {
-    width: 80px;
-}
-
-.icon {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
+footer .social img {
+    padding-top: 15px;
 }
