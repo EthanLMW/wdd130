@@ -145,6 +145,10 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.msg h2 {
+    color: green;
+}
+
 .msg p {
     font-size: .8em;
     padding-bottom: 15px;
@@ -253,7 +257,7 @@ footer .social img {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: green;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
