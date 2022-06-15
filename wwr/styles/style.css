@@ -21,7 +21,7 @@ body {
 header {
     background-color: rgb(117, 115, 115);
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 200px auto;
     grid-template-rows: 100px;
 }
 
@@ -245,6 +245,10 @@ footer .social img {
     nav a {
         display: block;
         padding: 15px;
+    }
+    header {
+        grid-template-rows: auto;
+        grid-template-columns: 235px auto;
     }
     #hero {
         margin-top: 0;
