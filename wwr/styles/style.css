@@ -22,6 +22,8 @@ header {
   display: grid;
   grid-template-columns: 200px auto;
   grid-template-rows: 100px;
+  position: sticky;
+  top: 0;
 }
 
 nav {
@@ -238,40 +240,59 @@ footer .social img {
 
 /*Page 2 css*/
 
-.pg2-title {
-  text-align: left;
-  padding: 100px 30px 50px 50px;
-  font-size: 2em;
+#body {
+    font-size: 1.2em;
+}
+
+#riverinfo {
+    text-align: left;
+    padding: 50px 100px 50px 50px;  
+}
+
+#riverinfo h2 {
+    font-size: 2em;
+    color: #2a8823;
 }
 
 .pg2-salmon h3,
-.pg2-rafting h3 {
-  text-align: left;
-  margin: 0;
-  font-weight: bold;
+.pg2-rafting h3,
+.pg2-elk h3 {
+    text-align: left;
+    font-size: 1.5em;
+    margin: 0;
+    color: #2a8823;
 }
 
 .pg2-elk h3 {
-  text-align: right;
-  margin: 0;
+    text-align: left;
+    margin: 0;
 }
 
-.pg2-salmon,
-.pg2-elk,
-.pg2-rafting {
-  padding: 20px 100px 100px 50px;
-  text-align: left;
+.pg2-salmon {
+    padding: 50px 100px 100px 50px;
+    text-align: left;
 }
+
+.pg2-elk {
+    padding: 20px 100px 100px 50px;
+    text-align: left;
+}
+
+.pg2-rafting {
+    padding: 100px 100px 0 50px;
+    text-align: left;
+}
+
 
 .salmon-img,
 .rafting-img {
-  float: left;
-  padding: 0px 50px 50px 0px;
+    float: left;
+    padding: 0px 50px 50px 0px;
 }
 
 .elk-img {
-  float: right;
-  padding-left: 20px;
+    float: right;
+    padding-left: 20px;
 }
 
 @media screen and (max-width: 900px) {
