@@ -234,6 +234,38 @@ footer .social img {
     padding-top: 15px;
 }
 
+/*-------------------------------------------------*/
+
+/*Page 2 css*/
+
+#pg2-title h2 {
+    text-align: left;
+    padding: 100px 30px 30px 50px;
+}
+
+.pg2-salmon ,.pg2-rafting h3 {
+    text-align: left;
+}
+
+.pg2-salmon {
+    float: left;
+    padding: 20px 100px 100px 50px;
+}
+
+.pg2-elk {
+    float: right;
+    padding: 20px 100px 100px 50px;
+}
+
+.pg2-rafting img {
+    float: left;
+    padding: 20px 100px 100px 50px;
+}
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
