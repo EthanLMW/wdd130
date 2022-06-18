@@ -254,6 +254,7 @@ footer .social img {
     color: #2a8823;
 }
 
+
 .pg2-salmon h3,
 .pg2-rafting h3,
 .pg2-elk h3 {
@@ -263,13 +264,15 @@ footer .social img {
     color: #2a8823;
 }
 
-.pg2-elk h3 {
-    text-align: left;
-    margin: 0;
-}
 
+#riverinfo p,
+.pg2-elk p,
+.pg2-salmon p,
+.pg2-rafting p {
+  font-size: 1.15em;
+}
 .pg2-salmon {
-    padding: 50px 100px 100px 50px;
+    padding: 0 100px 100px 50px;
     text-align: left;
 }
 
