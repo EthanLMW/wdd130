@@ -1,3 +1,21 @@
+/*Heading Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@700&display=swap');
+
+/*Paragraph Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Open+Sans&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'open sans', 'nunito sans', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: grid;
     grid-template-columns: 250px auto;
@@ -35,24 +53,32 @@ nav a {
     align-self: center;
 }
 
-.faq-heading{
-    border-bottom: #777;
-    padding: 20px 60px;
+.faq-img img {
+    display: block;
+    text-align: center;
+    width: 100%;
 }
+
+.faq-info {
+    text-align: center;
+    font-size: 1em;
+    padding: 50px 0px 50px 0px;
+    font-weight: bold;
+}
+
 .faq-container{
 display: flex;
 justify-content: center;
 flex-direction: column;
+font-size: 0.7em;
 }
+
 .hr-line{
   width: 60%;
   margin: auto;
-  
 }
-/* Style the buttons that are used to open and close the faq-page body */
+
 .faq-page {
-    /* background-color: #eee; */
-    color: #444;
     cursor: pointer;
     padding: 30px 20px;
     width: 60%;
@@ -66,31 +92,38 @@ flex-direction: column;
     /* text-align: center; */
    width: 50%; 
    padding: auto;
-   
+   font-weight: bold;
 }
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
 .active,
 .faq-page:hover {
-    background-color: #F9F9F9;
+    background-color: #e9e9e9;
 }
-/* Style the faq-page panel. Note: hidden by default */
+
 .faq-body {
     padding: 0 18px;
     background-color: white;
     display: none;
     overflow: hidden;
 }
+
 .faq-page:after {
     content: '\02795';
-    /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #777;
     float: right;
     margin-left: 5px;
 }
+
 .active:after {
     content: "\2796";
-    /* Unicode character for "minus" sign (-) */
+}
+
+.last-p {
+    text-align: center;
+    margin: 75px 0px 75px 0px;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
 }
 
 footer {
@@ -98,10 +131,17 @@ footer {
     padding: 20px 50px 0px 50px;
 }
 
+footer h6 {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 #footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px;
+    grid-template-rows: 75px 75px 100px;
+    grid-column-gap: 30px;
     margin: 0;
 }
 
@@ -112,6 +152,7 @@ footer {
 .c1 {
     grid-column: 1/2;
     grid-row: 1/2;
+    margin-bottom: 10px;
 }
 
 .c2 {
@@ -121,14 +162,12 @@ footer {
 
 .c3 {
     grid-column: 2/3;
-    grid-row: 1/2;
-
+    grid-row: 1/3;
 }
-
 
 .c4 {
     grid-column: 3/4;
-    grid-row: 1/2;
+    grid-row: 1/3;
     margin: 0;
 }
 
@@ -140,8 +179,4 @@ footer {
 .social {
     grid-column: 4/5;
     grid-row: 1/2;
-}
-
-.social a {
-    text-decoration: none;
 }

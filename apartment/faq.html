@@ -26,40 +26,49 @@
             </nav>
         </header>
 
+        <div class="faq-img">
+            <div class="faq-img1">
+                <img src="images/faq1111.jpeg" alt="faq img">
+            </div>
+        </div>
+
         <main>
-            <div>
-                <img src="images/faq1.jpg" alt="faq img">
+
+            <div class="faq-info">
+                <p>
+                    Here are some questions frequently asked by many students!
+                </p>
+                <p>
+                    This can answer some of the questions you
+                    might have.
+                </p>
             </div>
-            <div>
-                <img src="images/rsz_1question.png" alt="question img">
-            </div>
+            <hr class="hr-line">
             <section class="faq-container">
                 <div class="faq-one">
-                    <!-- faq question -->
                     <h1 class="faq-page">How much is the rent per semester?</h1>
-                    <!-- faq answer -->
                     <div class="faq-body">
                         <p>We only provide 6 bed housings, and it costs $1100 for Spring, Fall, and Winter
                             semesters,
                             and $500 for summer.</p>
                     </div>
                 </div>
+
                 <hr class="hr-line">
+
                 <div class="faq-two">
-                    <!-- faq question -->
                     <h1 class="faq-page">What kinds of amenities do they provide?</h1>
-                    <!-- faq answer -->
                     <div class="faq-body">
                         <p>We offer a modern living spaces, a gym, on-site washers and dryers, study spaces, two
                             refridgerators
                             in each apartment, etc. For more information, please see “Amenities” section.</p>
                     </div>
                 </div>
+
                 <hr class="hr-line">
+
                 <div class="faq-three">
-                    <!-- faq question -->
                     <h1 class="faq-page">How does an apartment look like?</h1>
-                    <!-- faq answer -->
                     <div class="faq-body">
                         <p>Each apartment comes with two refridgerators, on-site washer and dryer, two bathrooms,
                             etc. (For more
@@ -68,20 +77,18 @@
                 </div>
 
                 <hr class="hr-line">
+
                 <div class="faq-four">
-                    <!-- faq question -->
                     <h1 class="faq-page">How long does it take to get to the campus?</h1>
-                    <!-- faq answer -->
                     <div class="faq-body">
                         <p>It takes about 5 minutes to the stadium, and 8 minutes to the I-Center.</p>
                     </div>
                 </div>
 
                 <hr class="hr-line">
+
                 <div class="faq-five">
-                    <!-- faq question -->
                     <h1 class="faq-page">How many people do I have to live with?</h1>
-                    <!-- faq answer -->
                     <div class="faq-body">
                         <p>We only offer shared room apartments. You will have two options: 6 people housing, and 8
                             people
@@ -90,10 +97,9 @@
                 </div>
 
                 <hr class="hr-line">
+
                 <div class="faq-six">
-                    <!-- faq question -->
                     <h1 class="faq-page">Do you have a discount for multi-semester contacts?</h1>
-                    <!-- faq answer -->
                     <div class="faq-body">
                         <p>Yes. You will have $50 off in each semester for signing two or more contracts in one
                             application.</p>
@@ -101,20 +107,18 @@
                 </div>
 
                 <hr class="hr-line">
+
                 <div class="faq-seven">
-                    <!-- faq question -->
                     <h1 class="faq-page">Can I bring my pet?</h1>
-                    <!-- faq answer -->
                     <div class="faq-body">
                         <p>Our apartments are not allowed to have pets.</p>
                     </div>
                 </div>
 
                 <hr class="hr-line">
+
                 <div class="faq-eight">
-                    <!-- faq question -->
                     <h1 class="faq-page">What are the office hours?</h1>
-                    <!-- faq answer -->
                     <div class="faq-body">
                         <p>The office hours are:
                             Mon - Fri: 9am-3pm
@@ -124,8 +128,8 @@
                 </div>
 
                 <hr class="hr-line">
+
                 <div class="faq-nine">
-                    <!-- faq question -->
                     <h1 class="faq-page">How do I pay my rent?</h1>
                     <!-- faq answer -->
                     <div class="faq-body">
@@ -142,72 +146,71 @@
                         <p>No, you don't. You only pay the application fee for the first semester you sign.</p>
                     </div>
                 </div>
-                <div>
-                    <section>
-                        <p>
-                        </p>
-                        <p>
-                            - 
-                        </p>
-                    </section>
-                </div>
-
-    </div>
-    <script>
-        var faq = document.getElementsByClassName("faq-page");
-        var i;
-        for (i = 0; i < faq.length; i++) {
-            faq[i].addEventListener("click", function () {
-                /* Toggle between adding and removing the "active" class,
-                to highlight the button that controls the panel */
-                this.classList.toggle("active");
-                /* Toggle between hiding and showing the active panel */
-                var body = this.nextElementSibling;
-                if (body.style.display === "block") {
-                    body.style.display = "none";
-                } else {
-                    body.style.display = "block";
+            </section>
+            <hr class="hr-line">
+            <div class="last-p">
+                <p>
+                    If you have any other questions, please reach out to our management team.
+                </p>
+                <p>
+                    We will be glad to help you!
+                </p>
+            </div>
+            <script>
+                var faq = document.getElementsByClassName("faq-page");
+                var i;
+                for (i = 0; i < faq.length; i++) {
+                    faq[i].addEventListener("click", function () {
+                        /* Toggle between adding and removing the "active" class,
+                        to highlight the button that controls the panel */
+                        this.classList.toggle("active");
+                        /* Toggle between hiding and showing the active panel */
+                        var body = this.nextElementSibling;
+                        if (body.style.display === "block") {
+                            body.style.display = "none";
+                        } else {
+                            body.style.display = "block";
+                        }
+                    });
                 }
-            });
-        }
-    </script>
-    </main>
+            </script>
+        </main>
 
-    <footer>
-        <h4>RI Apartments</h4>
-        <div id="footer-container">
-            <div class="c1">
-                <h6>Address</h6>
-                <p>945 N 1st W, Rexburg, ID</p>
-            </div>
-            <div class="c2">
-                <h6>Phone Number</h6>
-                <p>(101) 792 - 0945</p>
-            </div>
-            <div class="c3">
-                <h6>Office Hours</h6>
-                <p>Mon - Fri: 10am - 5pm</p>
-                <p>Sat: 10am - 1pm</p>
-                <p>Sun: Closed</p>
-            </div>
-            <div class="c4">
-                <h6><a href="index.html">Home</a></h6>
-                <h6><a href="floorplan.html">Floor Plan</a></h6>
-                <h6><a href="faq.html">FAQ</a></h6>
-                <h6><a href="contactus.html">Contact Us</a></h6>
-            </div>
-            <div class="social">
-                <a href="https://facebook.com" target="blank">
-                    <img src="images/fb_logo.jpg" alt="fb icon" width="50" height="50">
-                </a>
-                <a href="https://twitter.com" target="blank">
-                    <img src="images/twitter_logo.png" alt="twitter icon" width="50" height="50">
-                </a>
-                <a href="https://instagram.com" target="blank">
-                    <img src="images/Instagram_logo.jpg" alt="instagram icon" width="50" height="50">
-                </a>
-            </div>
-    </footer>
+        <footer>
+            <h4>RI Apartments</h4>
+            <div id="footer-container">
+                <div class="c1">
+                    <h6>Address</h6>
+                    <p>945 N 1st W, Rexburg, ID</p>
+                </div>
+                <div class="c2">
+                    <h6>Phone Number</h6>
+                    <p>(101) 792 - 0945</p>
+                </div>
+                <div class="c3">
+                    <h6>Office Hours</h6>
+                    <p>Mon - Fri: 10am - 5pm</p>
+                    <p>Sat: 10am - 1pm</p>
+                    <p>Sun: Closed</p>
+                </div>
+                <div class="c4">
+                    <h6><a href="index.html">Home</a></h6>
+                    <h6><a href="floorplan.html">Floor Plan</a></h6>
+                    <h6><a href="faq.html">FAQ</a></h6>
+                    <h6><a href="contactus.html">Contact Us</a></h6>
+                </div>
+                <div class="social">
+                    <a href="https://facebook.com" target="blank">
+                        <img src="images/fb_logo.jpg" alt="fb icon" width="50" height="50">
+                    </a>
+                    <a href="https://twitter.com" target="blank">
+                        <img src="images/twitter_logo.png" alt="twitter icon" width="50" height="50">
+                    </a>
+                    <a href="https://instagram.com" target="blank">
+                        <img src="images/Instagram_logo.jpg" alt="instagram icon" width="50" height="50">
+                    </a>
+                </div>
+        </footer>
     </div>
 </body>
 
