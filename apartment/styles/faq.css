@@ -43,8 +43,6 @@ nav a {
 
 .logo {
     width: 100%;
-    padding-top: 10px;
-
 }
 
 #logo_link {
@@ -121,14 +119,20 @@ font-size: 0.7em;
 
 .last-p {
     text-align: center;
-    margin: 75px 0px 75px 0px;
+    margin: 50px 30px 50px 30px;
     padding: 10px 0px 10px 0px;
     font-weight: bold;
 }
 
 footer {
     background-color: rgb(238, 238, 238);
-    padding: 20px 50px 0px 50px;
+    padding: 25px 50px;
+    display: block;
+    justify-content: space-around;
+}
+
+footer h4 {
+    display: block;
 }
 
 footer h6 {
@@ -140,7 +144,7 @@ footer h6 {
 #footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 75px 75px 100px;
+    grid-template-rows: 1fr 1fr;
     grid-column-gap: 30px;
     margin: 0;
 }
@@ -179,4 +183,41 @@ footer h6 {
 .social {
     grid-column: 4/5;
     grid-row: 1/2;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+
+    #hero,
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+
+    nav{
+        flex-direction: row;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px 25px 23px 25px;
+    }
+
+    header {
+        grid-template-rows: auto;
+        grid-template-columns: 1fr;
+    }
+
+    #logo {
+        justify-self: center;
+        align-self: center;
+        width: 250px;
+    }
+
+    .faq-info {
+        padding: 30px;
+    }
 }
