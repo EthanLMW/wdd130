@@ -106,6 +106,10 @@ nav a {
     margin-bottom: 50px;
 }
 
+.plan {
+    margin-left: 50px;
+}
+
 .amenities {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
@@ -250,6 +254,10 @@ footer h6 {
         margin: 0;
     }
 
+    .plan {
+        margin: 0;
+    }
+
     .amenities {
         display: block;
     }
@@ -332,6 +340,10 @@ footer h6 {
 
 
     .floor img {
+        margin: 0;
+    }
+
+    .plan {
         margin: 0;
     }
 
